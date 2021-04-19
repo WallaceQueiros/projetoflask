@@ -1,0 +1,9 @@
+Fala Tássio, beleza?
+
+Então no trabalho eu priorizei a utilização do python, flask, HTML-CSS, Js, e o jinja2. Obviamente uns mais que outros.
+Eu não consegui fazer esse negocio do commit no git, na verdade eu fui reparar e lembar disso no final e como eu sou meio da roça com algumas coisas, não sei mexer em GitHub. Então me desculpa.
+Se possivel, me ajuda depois a subir esse projeto ou me da uma moral em Git porque eu não sei mexer em nada lá.
+Eu espero ter atendido o que você pediu, sei que consigo fazer algo até melhor, do que foi feito, mas espero que goste. 
+Pq os bastidores dessa prova foi triste hein kkkk.
+
+Abração Tássio TMJ!

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ categorias[cid].videos[vid].name }} - WebTheater</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        .my-button {
+            background: #EE7755;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            width: 100%;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            border-width: 0;
+            padding: 0;
+            font-size: medium;
+            cursor: pointer;
+        }
+        .container {
+            width: 100%;
+
+            overflow: hidden;
+            margin: 5% auto;
+            margin-top: 0;
+            position: absolute;
+            left: 0;
+        }
+        .video-player {
+            min-width: 100%;
+            min-height: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: .2%;
+            height: 2.3rem;
+        }
+        .video-container {
+            width:70%;
+            float: left;
+            border-radius: 20px;
+            margin-left:2%;
+            overflow: hidden;
+        }
+        .video-title {width:100%}
+        .comment-box-container {
+            width: 24%;
+            float: right;
+            margin-right: 2%;
+            height: 100%;
+            border-width: 2px;
+            border-color: white;
+        }
+    </style>
+</head>
+<body style="background-color:black ; color:#FFEEDD; text-align: center ">
+    {% set file='videos/'+categorias[cid].videos[vid].url %}
+
+    <div class="container">
+        <div class="video-container">
+            <h1 class="video-title">{{ categorias[cid].videos[vid].name }}</h1>
+            <video class="video-player" autoplay controls>
+                <source src="{{ url_for('static', filename=file) }}" type="video/mp4"/>
+            </video>
+            <div class="button-container">
+                <a href="/#{{ cid }}" class="my-button" style="text-decoration: none">
+                    <span class="material-icons">&#xe5e0</span> Voltar
+                </a>
+                <button class="my-button" onclick="alert('Voce curtiu esse video!')">
+                    <span style="margin-right:2%">Curtir</span><span class="material-icons"> &#xe8dc</span>
+                </button>
+            </div>
+        </div>
+        <div class="comment-box-container">
+            <h1 class="video-title">
+                Comentários
+            </h1>
+            <div class="comment-box" style="color:#202020">
+                Não há comentários
+            </div>
+            <div class="button-container">
+                <button class="my-button" style="background-color:#333333" onclick="alert('Voce fez um comentario!')">
+                     <span class="material-icons">&#xe266</span><span style="margin-left:3%">Comentar</span>
+                </button>
+                <button class="my-button" style="background-color:#333333" onclick="alert('Voce excluiu seu comentario!')">
+                    <span style="margin-right:2%">Excluir </span> <span class="material-icons">&#xe872</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

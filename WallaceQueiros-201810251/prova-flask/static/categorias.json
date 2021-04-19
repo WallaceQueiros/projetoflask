@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Cães",
+    "image": "images/dog.jpg",
+    "videos": [
+      {
+        "name": "Cachorro 1",
+        "url" : "dog1.mp4",
+        "poster": "images/dog1.png"
+      },
+      {
+        "name": "Cachorro 2",
+        "url": "dog2.mp4",
+        "poster": "images/dog2.png"
+      },
+      {
+        "name": "Cachorro 3",
+        "url": "dog3.mp4",
+        "poster": "images/dog3.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Gatos",
+    "image": "images/cat.jpg",
+    "videos": [
+      {
+        "name": "Gato 1",
+        "url" : "cat1.mp4",
+        "poster" : "images/cat1.png"
+      },
+      {
+        "name": "Gato 2",
+        "url": "cat2.mp4",
+        "poster" : "images/cat2.png"
+      },
+      {
+        "name": "Gato 3",
+        "url": "cat3.mp4",
+        "poster" : "images/cat3.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Peixes",
+    "image": "images/fish.jpg",
+    "videos": [
+      {
+        "name": "Peixe 1",
+        "url" : "fish1.mp4",
+        "poster" : "images/fish1.png"
+      },
+      {
+        "name": "Peixe 2",
+        "url": "fish2.mp4",
+        "poster" : "images/fish2.png"
+      },
+      {
+        "name": "Peixe 3",
+        "url": "fish3.mp4",
+        "poster" : "images/fish3.png"
+      }
+    ]
+  },
+  {
+    "name": "Pássaros",
+    "image": "images/bird.jpg",
+    "videos": [
+      {
+        "name": "Pássaro 1",
+        "url" : "bird1.mp4",
+        "poster" : "images/bird1.png"
+      },
+      {
+        "name": "Pássaro 2",
+        "url": "bird2.mp4",
+        "poster" : "images/bird2.png"
+      },
+      {
+        "name": "Pássaro 3",
+        "url": "bird3.mp4",
+        "poster" : "images/bird3.png"
+      }
+    ]
+  },
+  {
+    "name": "Cavalos",
+    "image": "images/horse.jpg",
+    "videos": [
+      {
+        "name": "Cavalo 1",
+        "url" : "horse1.mp4",
+        "poster": "horse1.png"
+      },
+      {
+        "name": "Cavalo 2",
+        "url": "horse2.mp4",
+        "poster" : "images/horse2.png"
+      },
+      {
+        "name": "Cavalo 3",
+        "url": "horse3.mp4",
+        "poster" : "images/horse3.png"
+      }
+    ]
+  }
+]

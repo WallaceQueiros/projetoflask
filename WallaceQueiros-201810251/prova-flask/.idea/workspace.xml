@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbc574e4-39fb-420b-a3a9-f9bef18bfca2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r5P6pa1nuinJ7MS57qE5Hky9yU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/videos" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/videos" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Wallace-prova-flask" type="Python.FlaskServer">
+      <module name="Wallace-prova-flask" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbc574e4-39fb-420b-a3a9-f9bef18bfca2" name="Default Changelist" comment="" />
+      <created>1618262804285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618262804285</updated>
+      <workItem from="1618262823478" duration="47220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2507" y="321" width="740" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618262885135">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2507" y="321" width="740" height="408" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1048@1920.0.1920.1080" timestamp="1618262885135" />
+    <state width="1872" height="266" key="GridCell.Tab.0.bottom" timestamp="1618350646390">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="266" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1048@1920.0.1920.1080" timestamp="1618350646390" />
+    <state width="1872" height="266" key="GridCell.Tab.0.center" timestamp="1618350646390">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="266" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1048@1920.0.1920.1080" timestamp="1618350646390" />
+    <state width="1872" height="266" key="GridCell.Tab.0.left" timestamp="1618350646390">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="266" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1048@1920.0.1920.1080" timestamp="1618350646390" />
+    <state width="1872" height="266" key="GridCell.Tab.0.right" timestamp="1618350646390">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="266" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1048@1920.0.1920.1080" timestamp="1618350646390" />
+    <state x="2543" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1618282643758">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="231" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1048@1920.0.1920.1080" timestamp="1618282643758" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Wallace_prova_flask$Wallace_prova_flask.coverage" NAME="Wallace-prova-flask Coverage Results" MODIFIED="1618350646378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
